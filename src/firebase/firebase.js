@@ -4,7 +4,7 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
+  apiKey: "AIzaSyCyI3xvLMDqyJZB1MnzyI0-XgF8UN4WBCo",
   authDomain: "my-portfolio-42dfd.firebaseapp.com",
   projectId: "my-portfolio-42dfd",
   storageBucket: "my-portfolio-42dfd.appspot.com",
