@@ -1,0 +1,105 @@
+@import "../../../style-config/variable.scss";
+@import "../../../style-config/mixins.scss";
+
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  @include small-screen {
+    flex-direction: row;
+  }
+  .left-col {
+    width: 100%;
+    @include small-screen {
+      width: 45%;
+      padding-top: 50px;
+      margin-left: 20px;
+    }
+    @include medium-screen {
+      padding-top: 55px;
+      width: 55%;
+    }
+    @include large-screen {
+      padding-top: 60px;
+      width: 70%;
+    }
+    .title {
+      display: flex;
+      flex-direction: column;
+      color: $white;
+      text-align: center;
+      @include small-screen {
+        text-align: left;
+      }
+      .small-text {
+        @include typography(24px, 400, 30px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include small-screen {
+          justify-content: flex-start;
+          @include typography(42px, 400, 48px);
+        }
+        .icon {
+          margin-left: 10px;
+        }
+      }
+      .big-text {
+        @include typography(42px, 400, 72px);
+        @include small-screen {
+          @include typography(62px, 400, 72px);
+        }
+      }
+    }
+    p {
+      color: $white;
+      @include typography(14px, 400, 20px);
+      margin: 15px 0;
+      padding: 0 15px;
+      text-align: center;
+      @include small-screen {
+        @include typography(18px, 400, 24px);
+        margin: 25px 0;
+        padding: 0;
+        text-align: left;
+      }
+    }
+    .call-to-action {
+      margin: 0 auto;
+      z-index: 5;
+      @include small-screen {
+        margin: 0;
+      }
+    }
+  }
+
+  .right-col {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    @include small-screen {
+      margin-bottom: 40px;
+      width: 60%;
+      justify-content: flex-end;
+    }
+    width: 100%;
+    img {
+      width: 75%;
+      margin-bottom: 0;
+      display: block;
+      @include small-screen {
+        margin-bottom: 40px;
+        width: 60%;
+      }
+      @include medium-screen {
+        margin-bottom: 40px;
+        width: 54%;
+        margin-right: 70px;
+      }
+      @include large-screen {
+        margin-bottom: 40px;
+        width: 62%;
+        margin-right: 50px;
+      }
+    }
+  }
+}

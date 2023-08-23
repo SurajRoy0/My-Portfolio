@@ -1,0 +1,7 @@
+{
+  "prettier.insertPragma": false,
+  "editor.formatOnSave": true,
+  "reactSnippets.settings.prettierEnabled": false,
+  "editor.formatOnType": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

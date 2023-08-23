@@ -1,0 +1,12 @@
+@import "../../style-config/variable.scss";
+
+.top-bar {
+  width: 100%;
+  background-color: $primary-color;
+  color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 20px;
+}
