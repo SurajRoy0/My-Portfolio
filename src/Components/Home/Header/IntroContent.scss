@@ -35,6 +35,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
         @include small-screen {
           justify-content: flex-start;
           @include typography(42px, 400, 48px);
@@ -45,6 +46,7 @@
       }
       .big-text {
         @include typography(42px, 400, 72px);
+        line-height: 46px;
         @include small-screen {
           @include typography(62px, 400, 72px);
         }
