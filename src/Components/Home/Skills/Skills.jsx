@@ -9,7 +9,6 @@ import github from "../../../Assets/Images/skills/Github.png";
 import html from "../../../Assets/Images/skills/HTML.png";
 import javaScript from "../../../Assets/Images/skills/Java Script.png";
 import json from "../../../Assets/Images/skills/JSON.png";
-import materialUi from "../../../Assets/Images/skills/Meterial UI.png";
 import mongoDb from "../../../Assets/Images/skills/Mongo DB.png";
 import nextJs from "../../../Assets/Images/skills/Next Js.png";
 import npm from "../../../Assets/Images/skills/NPM.png";
@@ -70,11 +69,6 @@ const skills = [
     id: 10,
     url: javaScript,
     name: "JavaScript",
-  },
-  {
-    id: 11,
-    url: materialUi,
-    name: "Material UI",
   },
   {
     id: 12,
