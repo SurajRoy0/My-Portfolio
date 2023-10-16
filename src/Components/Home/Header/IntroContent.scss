@@ -10,13 +10,13 @@
   .left-col {
     width: 100%;
     @include small-screen {
-      width: 45%;
+      width: 55;
       padding-top: 50px;
       margin-left: 20px;
     }
     @include medium-screen {
       padding-top: 55px;
-      width: 55%;
+      width: 65%;
     }
     @include large-screen {
       padding-top: 60px;
@@ -74,34 +74,34 @@
     }
   }
 
-  .right-col {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    @include small-screen {
-      margin-bottom: 40px;
-      width: 60%;
-      justify-content: flex-end;
-    }
-    width: 100%;
-    img {
-      width: 70%;
-      margin-bottom: 0;
-      display: block;
-      @include small-screen {
-        margin-bottom: 40px;
-        width: 60%;
-      }
-      @include medium-screen {
-        margin-bottom: 40px;
-        width: 54%;
-        margin-right: 70px;
-      }
-      @include large-screen {
-        margin-bottom: 40px;
-        width: 62%;
-        margin-right: 50px;
-      }
-    }
-  }
+  // .right-col {
+  //   display: flex;
+  //   align-items: flex-end;
+  //   justify-content: center;
+  //   @include small-screen {
+  //     margin-bottom: 40px;
+  //     width: 60%;
+  //     justify-content: flex-end;
+  //   }
+  //   width: 100%;
+  //   img {
+  //     width: 70%;
+  //     margin-bottom: 0;
+  //     display: block;
+  //     @include small-screen {
+  //       margin-bottom: 40px;
+  //       width: 60%;
+  //     }
+  //     @include medium-screen {
+  //       margin-bottom: 40px;
+  //       width: 54%;
+  //       margin-right: 70px;
+  //     }
+  //     @include large-screen {
+  //       margin-bottom: 40px;
+  //       width: 62%;
+  //       margin-right: 50px;
+  //     }
+  //   }
+  // }
 }

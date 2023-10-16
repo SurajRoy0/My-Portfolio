@@ -31,9 +31,6 @@ const IntroContent = () => {
           action={() => window.open(Resume)}
         />
       </div>
-      <div className="right-col">
-        <img src={profile} alt="Profile Pic" />
-      </div>
     </div>
   );
 };
